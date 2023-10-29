@@ -10,4 +10,6 @@ MAIN FOCUS:
 Specifically, the "Home", "Dashboard", and "Earn" sections. The other sections can be disregarded.
 Ensure your HTML is clean, and all required assets, JS, and CSS are structured well.
 
+See my work at https://sarthak7219.github.io/Romi-Finance/
+
 
