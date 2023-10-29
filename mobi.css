@@ -1,0 +1,1320 @@
+body{
+    background-color: #191919;
+    margin: 0;
+}
+
+.root{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.navbar{
+    display: flex;
+    width: 100%;
+    height: 3.825rem;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-shrink: 0;
+}
+
+
+.nav-left{
+    margin-left: 17px;
+}
+.logo{
+    display: flex;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    padding: 0 15px;
+}
+
+.logo-icon{
+    width: 197.54px;
+    align-self: stretch;
+
+}
+
+
+.nav-center{
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.nav-links{
+    width: 42.06rem;
+    height: 3.375rem;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: -0.00063rem;
+}
+
+.nav-item{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.nav-link{
+    display: flex;
+    padding: 1.125rem 1.005rem 1.125rem 1.0625rem;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    align-self: stretch;
+    color:#A7A7A9;
+    text-decoration: none;
+font-family: Inter;
+font-size: 0.90819rem;
+font-style: normal;
+font-weight: 400;
+line-height: 1.125rem; /* 123.871% */
+letter-spacing: 0.03125rem;
+}
+
+
+
+.nav-right{
+    display: flex;
+    padding: 0.7875rem 2rem 0.7875rem 0;
+align-items: center;
+align-self: stretch;
+width: 22rem;
+justify-content: space-between;
+}
+
+.nav-right-link{
+    color: #FFFFFF;
+text-align: center;
+font-family: Inter;
+font-size: 0.84769rem;
+text-decoration: none;
+font-style: normal;
+font-weight: 400;
+line-height: 1.25rem;
+}
+
+.trade{
+    width: 4.3125rem;
+    display: flex;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    background: #3EB489;
+    border-radius: 0.25rem;
+}
+
+.wallet{
+    width: 10rem;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    background: none;
+    justify-content: space-evenly;
+    border-radius: 0.25rem;
+border: 1px solid  rgba(255, 255, 255, 0.16);
+}
+
+.wallet-logo{
+    display: flex;
+    align-items: center;
+}
+
+.more{
+    width: 4.6625rem;
+    height: 100%;
+    display: flex;
+    border-radius: 0.25rem;
+    border-radius: 0.25rem;
+    border: 1px solid  rgba(255, 255, 255, 0.16);
+}
+
+.more-logo{
+    flex: 0 1 50%;
+}
+
+.dots{
+    flex: 0 1 50%;
+}
+
+
+.pseudo{
+    width: 100%;
+    height: 0.8125rem;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.19) 0%, rgba(0, 0, 0, 0.00) 100%);
+
+}
+
+.main{
+    display: flex;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 0rem 7.975rem;
+    flex-direction: column;
+    align-items: center;
+}
+
+.main-head-container{
+    display: flex;
+    max-width: 79rem;
+    padding: 3.875rem 43.875rem 0rem 2rem;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.main-head-section{
+    display: flex;
+max-width: 33.125rem;
+padding-right: 0px;
+flex-direction: column;
+align-items: flex-start;
+align-self: stretch;
+}
+
+.headline{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    color:  #FFFFFF;
+font-family: Inter;
+font-size: 3.33288rem;
+font-style: normal;
+font-weight: 700;
+line-height: 4.25rem; /* 127.517% */
+}
+
+
+
+.head-desc{
+    display: flex;
+max-width: 27.75rem;
+padding-bottom: 0px;
+justify-content: center;
+align-items: center;
+height: 6.4375rem;
+color:  #CECECE;
+font-family: Inter;
+font-style: normal;
+font-weight: 400;
+line-height: 1.5625rem; /* 129.032% */
+letter-spacing: 0.03125rem;
+}
+
+.launch-button{
+    display: flex;
+min-height: 2.25rem;
+padding: 0rem 1rem;
+align-items: center;
+border-radius: 0.25rem;
+background: #3EB489;
+
+}
+
+.launch-exchange{
+    color: #FFFFFF;
+    border: none;
+    background: #3EB489;
+    text-align: center;
+    font-family: Inter;
+    font-size: 0.84081rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.25rem; /* 148.664% */
+
+}
+
+.latest-info-container{
+    display: flex;
+    width: 100%;
+    max-width: 100%;
+padding: 3.875rem 2rem 0.9375rem 2rem;
+justify-content: space-between;
+align-items: flex-start;
+align-content: flex-start;
+flex-wrap: wrap;
+}
+
+.info-head{
+    color: #CECECE;
+    font-family: Inter;
+    font-size: 0.95313rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.5625rem; /* 163.934% */
+}
+
+.info-amt{
+    color:  #FFFFFF;
+font-family: Inter;
+font-size: 1.79125rem;
+font-style: normal;
+font-weight: 400;
+line-height: 2.4375rem; /* 136.077% */
+}
+
+.info-box{
+    display: flex;
+max-width: 23.75rem;
+margin: 2.8rem 0;
+padding: 0 7.075rem 0 0.05rem;
+align-items: center;
+align-self: stretch;
+/* height: 7.6rem; */
+border-radius: 0.25rem;
+border: 1px solid  rgba(255, 255, 255, 0.08);
+background: rgba(255, 255, 255, 0.00);
+box-shadow: 0px 7px 8px 0px rgba(0, 0, 0, 0.20);
+}
+
+.info-icon{
+    display: flex;
+padding: 0rem 2.46875rem 0rem 1.59375rem;
+flex-direction: column;
+align-items: flex-start;
+}
+
+.info-content{
+    display: flex;
+flex-direction: column;
+align-items: flex-start;
+}
+
+
+.benefits-container{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    max-width: 100%;
+    padding: 3.5rem 2.00063rem 3.5rem 2rem;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+    flex-wrap: wrap;
+}
+
+.benefit-box{
+    display: flex;
+    width: 19.90375rem;
+padding: 1.5rem 0rem 1.5625rem 0rem;
+flex-direction: column;
+align-items: flex-start;
+gap: -0.0625rem;
+}
+
+
+.benefit-head-combine{
+    display: flex;
+padding-bottom: 0px;
+align-items: center;
+align-self: stretch;
+}
+
+.benefit-icon{
+    display: flex;
+flex-direction: column;
+align-items: flex-start;
+}
+
+.benefit-head{
+    display: flex;
+padding: 0rem 0.02875rem 0rem 0.9375rem;
+flex-direction: column;
+align-items: flex-start;
+color:  #FFFFFF;
+font-family: Inter;
+font-size: 1.33206rem;
+font-style: normal;
+font-weight: 400;
+line-height: 1.75rem; /* 131.378% */
+letter-spacing: 0.03125rem;
+}
+
+.benefit-desc{
+    color:  #CECECE;
+font-family: Inter;
+font-size: 1.08988rem;
+font-style: normal;
+font-weight: 400;
+line-height: 1.4375rem; /* 131.9% */
+}
+
+.token-card-container{
+    display: flex;
+width: 100%;
+max-width: 100%;
+padding: 0rem 2rem;
+flex-direction: column;
+align-items: flex-start;
+gap: 1.9375rem;
+}
+
+.token-head{
+    display: flex;
+padding-right: 0px;
+flex-direction: column;
+align-items: flex-start;
+align-self: stretch;
+}
+
+.token-head-title{
+    max-width: 24.21875rem;
+    color: var(--zomi-finance-1519199951171875-x-6735999755859375-default-nero, #FFF);
+font-family: Inter;
+font-size: 2.25438rem;
+font-style: normal;
+font-weight: 700;
+line-height: 3rem; /* 133.073% */
+}
+
+.token-boxes-container{
+    display: flex;
+padding-right: 0px;
+align-items: flex-start;
+gap: 0.96875rem;
+align-self: stretch;
+}
+
+.token-box{
+    display: flex;
+width: 37rem;
+max-width: 37rem;
+padding: 1.50313rem;
+flex-direction: column;
+align-items: flex-start;
+gap: 1.45313rem;
+align-self: stretch;
+border-radius: 0.5rem;
+border: 1px solid  #4D4D4E;
+background:  #151515;
+box-shadow: 0px 5px 13px 0px rgba(0, 0, 0, 0.52);
+}
+
+.token-box-head{
+    display: flex;
+height: 1.9375rem;
+padding-right: 0px;
+align-items: center;
+align-self: stretch;
+}
+
+.token-box-icon{
+    display: flex;
+width: 3rem;
+padding-right: 0px;
+flex-direction: column;
+align-items: flex-start;
+}
+
+.token-box-head-title{
+    color: var(--zomi-finance-1519199951171875-x-6735999755859375-default-nero, #FFF);
+font-family: Inter;
+font-size: 1.388rem;
+font-style: normal;
+font-weight: 500;
+line-height: 1.9375rem; /* 139.591% */
+}
+
+.token-box-info{
+    display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: flex-start;
+gap: 1.27375rem;
+align-self: stretch;
+}
+
+.token-box-desc{
+    display: flex;
+width: 33.99375rem;
+padding-right: 0px;
+flex-direction: column;
+align-items: flex-start;
+max-width: 33.99375rem;
+color: #FFFFFF;
+font-family: Inter;
+font-size: 1.08988rem;
+font-style: normal;
+font-weight: 400;
+line-height: 1.4375rem;
+}
+
+.token-box-etherium-apr-container{
+    display: flex;
+padding-right: 0px;
+align-items: flex-start;
+gap: 0.1875rem;
+}
+
+.etherium-apr{
+    max-width: 33.99375rem;
+    color: #CECECE;
+    font-family: Inter;
+    font-size: 0.90819rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.4375rem;
+}
+
+.apr-value{
+    max-width: 33.99375rem;
+    color: #CECECE;
+font-family: Inter;
+font-size: 0.9155rem;
+font-style: normal;
+font-weight: 400;
+line-height: 1.4375rem; 
+}
+
+.token-box-buttons{
+    display: flex;
+padding-right: 0px;
+align-items: center;
+}
+
+.token-buy-button-container{
+    display: flex;
+padding-right: 0px;
+width: 4.406rem;
+align-items: center;
+}
+
+.token-buy-button{
+    color: #FFFFFF;
+text-align: center;
+font-family: Inter;
+font-size: 0.82713rem;
+font-style: normal;
+font-weight: 400;
+line-height: 1.25rem; /* 151.122% */
+min-height: 2.25rem;
+padding: 0rem 0.97844rem 0rem 0.99094rem;
+border-radius: 0.25rem;
+background: #3EB489;
+
+}
+
+.token-read-more-button-container{
+    border-radius: 0.25rem;
+border: 1px solid  #A0A3C4;
+}
+
+.token-read-more-button{
+    display: flex;
+min-height: 2.25rem;
+padding: 0.05rem 1.05rem;
+justify-content: center;
+align-items: center;
+align-self: stretch;
+color: #FFFFFF;
+text-align: center;
+font-family: Inter;
+font-size: 0.84769rem;
+font-style: normal;
+font-weight: 400;
+line-height: 1.25rem;
+background: none;
+}
+
+
+.footer{
+    display: flex;
+width: 100%;
+height: 12.5rem;
+padding-top: 40.8px;
+padding-bottom: 100px;
+flex-direction: column;
+justify-content: flex-end;
+align-items: center;
+gap: 1.5rem;
+flex-shrink: 0;
+}
+
+.footer1{
+    display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.footer2{
+    display: flex;
+justify-content: center;
+align-items: flex-start;
+}
+
+.footer-icons{
+    display: flex;
+width: 6rem;
+padding: 0rem 2rem;
+flex-direction: column;
+align-items: center;
+align-self: stretch;
+}
+
+.footer-icon-img{
+    height: 1.42125rem;
+    flex-shrink: 0;
+}
+
+.footer3{
+    display: flex;
+width: 100%;
+justify-content: center;
+align-items: flex-start;
+gap: -0.0125rem;
+}
+
+.footer3-text{
+    display: flex;
+width: 11.875rem;
+flex-direction: column;
+align-items: center;
+align-self: stretch;
+max-height: 1.15625rem;
+color: #E6E6EA;
+text-align: center;
+
+/* zomi_finance__1519.199951171875x673.5999755859375_default/Inter/Regular 14.41 */
+font-family: Inter;
+font-size: 0.90088rem;
+font-style: normal;
+font-weight: 400;
+line-height: 1.15625rem; 
+letter-spacing: 0.03125rem;
+}
+
+.earn-page-main{
+    display: flex;
+width: 100%;
+max-width: 100%;
+min-height: 38.225rem;
+padding: 2.90625rem 2rem 0 2rem;
+flex-direction: column;
+align-items: flex-start;
+}
+.stats-container{
+    width: 100%;
+}
+
+.stats-head-container{
+    display: flex;
+max-width: 36.5rem;
+height: 6.2468rem;
+max-height: 6.2468rem;
+padding-bottom: 0px;
+flex-direction: column;
+align-items: flex-start;
+margin-bottom: 1.45rem;
+}
+
+.stats-title-container{
+    display: flex;
+padding-right: 0px;
+width: 20.6175rem;
+align-items: center;
+gap: 0.4525rem;
+padding-bottom: 0.5rem;
+}
+
+.stats-title{
+    width: 5.4375rem;
+    color: #FFFFFF;
+
+
+font-family: Inter;
+font-size: 2.05031rem;
+font-style: normal;
+font-weight: 700;
+line-height: 3.06rem; /* 149.247% */
+letter-spacing: 0.03125rem;
+}
+
+.stats-icon{
+    width: 1.5rem;
+    height: 1.5rem;
+}
+
+.stats-desc{
+    max-width: 20.6175rem;
+    color:  #B7B7BD;
+
+/* zomi_finance__dashboard/Inter/Regular 14.41 */
+font-family: Inter;
+font-size: 0.90088rem;
+font-style: normal;
+font-weight: 400;
+line-height: 1.34375rem; /* 149.16% */
+letter-spacing: 0.03125rem;
+}
+
+.stats-table-container{
+    width: 100%;
+    max-width: 100%;
+    display: flex;
+    justify-content: space-between;
+    height: 13.91875rem;
+    gap: 0.9375rem;
+    flex-shrink: 0;
+}
+
+.stats-table{
+flex-shrink: 0;
+align-self: stretch;
+border-radius: 0.25rem;
+border: 1px solid  #4D4D4E;
+background:  #151515;
+}
+
+.stats-table-head{
+    display: flex;
+width: 35.05625rem;
+padding-right: 0px;
+justify-content: space-between;
+align-items: center;
+margin: 1rem;
+color:  #FFFFFF;
+font-family: Inter;
+font-size: 0.96875rem;
+font-style: normal;
+font-weight: 400;
+line-height: 1.3125rem; /* 135.484% */
+}
+
+.stats-table-line{
+    width: 36.93125rem;
+height: 0.0625rem;
+background: #4D4D4E;
+}
+
+.stats-table-info{
+    display: flex;
+width: 35.05625rem;
+flex-direction: column;
+align-items: flex-start;
+gap: 0.5rem;
+margin: 1rem;
+}
+
+.stats-table-row{
+    display: flex;
+padding-right: 0px;
+align-items: flex-start;
+justify-content: space-between;
+gap: 0.9375rem;
+align-self: stretch;
+}
+
+.stats-table-data{
+    color: rgba(255, 255, 255, 0.70);
+
+/* zomi_finance__dashboard/Inter/Regular 14.41 */
+font-family: Inter;
+font-size: 0.90088rem;
+font-style: normal;
+font-weight: 400;
+line-height: 1.35rem; /* 149.854% */
+letter-spacing: 0.03125rem;
+}
+
+.stats-table-value{
+    color: #FFFFFF;
+text-align: right;
+
+/* zomi_finance__dashboard/Inter/Regular 13.83 underline */
+font-family: Inter;
+font-size: 0.86425rem;
+font-style: normal;
+font-weight: 400;
+line-height: 1.35rem; /* 156.203% */
+letter-spacing: 0.03125rem;
+text-decoration-line: underline;
+}
+
+.tokens{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-top: 31px;
+}
+
+.tokens-head-container{
+    display: flex;
+flex-direction: column;
+align-items: flex-start;
+gap: 0.5rem;
+
+}
+
+.tokens-title-container{
+    display: flex;
+align-items: center;
+gap: 0.47563rem;
+height: 3.06rem;
+align-self: stretch;
+}
+
+.tokens-title{
+    color:  #FFFFFF;
+
+/* zomi_finance__dashboard/Inter/Bold 31.08 */
+font-family: Inter;
+font-size: 1.94238rem;
+font-style: normal;
+font-weight: 700;
+line-height: 3.06rem; /* 157.538% */
+letter-spacing: 0.03125rem;
+}
+
+
+.tokens-desc{
+    color:  #B7B7BD;
+
+/* zomi_finance__dashboard/Inter/Regular 14.41 */
+font-family: Inter;
+font-size: 0.90088rem;
+font-style: normal;
+font-weight: 400;
+line-height: 1.34375rem; /* 149.16% */
+letter-spacing: 0.03125rem;
+}
+
+.tokens-table-container{
+    display: flex;
+align-items: flex-start;
+gap: 0.9375rem;
+align-self: stretch;
+}
+
+.tokens-table{
+    display: flex;
+padding: 0.9875rem 0 1.2125rem 0.9875rem;
+align-items: center;
+flex: 1 0 0;
+align-self: stretch;
+border-radius: 0.25rem;
+border: 1px solid #4D4D4E;
+background:  #151515;
+}
+
+.table-info-container{
+    flex: 1 0 0;
+align-self: stretch;
+}
+
+.tokens-table-head-container{
+    display: flex;
+width: 7.8rem;
+padding-right: 0px;
+justify-content: space-between;
+align-items: center;
+}
+
+.tokens-table-head-icon{
+    display: flex;
+padding-right: 0px;
+height: 2.5rem;
+width: 2.5rem;
+flex-direction: column;
+align-items: flex-start;
+}
+
+.tokens-table-head-title{
+    display: flex;
+padding-bottom: 0px;
+flex-direction: column;
+align-items: flex-start;
+}
+
+.token-table-title1{
+    color:  #FFFFFF;
+font-family: Inter;
+font-size: 0.96875rem;
+font-style: normal;
+font-weight: 400;
+line-height: 1.3125rem; /* 135.484% */
+}
+
+.token-table-title2{
+    color:  #A9A9B0;
+font-family: Inter;
+font-size: 0.72656rem;
+font-style: normal;
+font-weight: 400;
+line-height: 0.9375rem; /* 129.032% */
+}
+.token-table-head-arrow{
+    display: flex;
+padding: 0rem 0rem 1.25rem 0.5rem;
+flex-direction: column;
+align-items: flex-start;
+}
+
+.token-table-line{
+    width: 23.49375rem;
+height: 0.0625rem;
+background:  #4D4D4E;
+}
+
+.tokens-table-info{
+    display: flex;
+    margin-top: 0.66rem;
+width: 21.61875rem;
+flex-direction: column;
+align-items: flex-start;
+gap: 0.5rem;
+}
+
+.tokens-table-row{
+    display: flex;
+align-items: flex-start;
+gap: 0.9375rem;
+justify-content: space-between;
+align-self: stretch;
+
+}
+
+.tokens-table-data{
+    color:  rgba(255, 255, 255, 0.70);
+
+/* zomi_finance__dashboard/Inter/Regular 15 */
+font-family: Inter;
+font-size: 0.9375rem;
+font-style: normal;
+font-weight: 400;
+line-height: 1.35rem; /* 144% */
+letter-spacing: 0.03125rem;
+}
+
+.tokens-table-value{
+    color: #FFFFFF;
+text-align: right;
+
+/* zomi_finance__dashboard/Inter/Regular 14.18 underline */
+font-family: Inter;
+font-size: 0.88625rem;
+font-style: normal;
+font-weight: 400;
+line-height: 1.35rem; /* 152.331% */
+letter-spacing: 0.03125rem;
+text-decoration-line: underline;
+}
+
+
+.tokens-table-pie-container{
+    display: flex;
+justify-content: flex-end;
+align-items: center;
+width: 13.125rem;
+height: 13.125rem;
+}
+
+.zlp-container{
+    margin-top: 0.94rem;
+    border-radius: 0.25rem;
+    width: 100%;
+border: 1px solid  #4D4D4E;
+background:  #151515;
+padding-bottom: 1rem;
+align-self: stretch;
+}
+
+.zlp-head-container{
+    display: flex;
+padding-right: 0px;
+margin: 1rem;
+align-items: center;
+gap: 0.01875rem;
+}
+
+.zlp-title{
+    color:  #FFFFFF;
+font-family: Inter;
+font-size: 0.96094rem;
+font-style: normal;
+font-weight: 400;
+line-height: 1.3125rem; /* 136.585% */
+}
+
+.zlp-head-icon{
+    width: 1rem;
+height: 1rem;
+flex-shrink: 0;
+}
+
+.zlp-line{
+height: 0.0625rem;
+flex-shrink: 0;
+margin-bottom: 0.67rem;
+background:  #4D4D4E;
+}
+
+.zlp-table-container{
+    display: inline-flex;
+flex-direction: column;
+justify-content: center;
+align-items: flex-start;
+}
+
+
+
+.zlp-table-head{
+    width: 74.9625rem;
+height: 2.80313rem;
+display: flex;
+color:  #A9A9B0;
+
+/* zomi_finance__dashboard/Inter/Regular 14.3 upper */
+font-family: Inter;
+font-size: 0.89356rem;
+font-style: normal;
+font-weight: 400;
+line-height: 1.35rem; /* 151.082% */
+letter-spacing: 0.01563rem;
+text-transform: uppercase;
+}
+
+.zlp-table-head-box{
+    display: flex;
+    align-items: center;
+}
+
+
+
+.head-utilization{
+    padding-right: 0.94rem;
+}
+
+.zlp-table-row{
+    display: flex;
+align-items: center;
+}
+
+.zlp-token-container, .head-token {
+    display: flex;
+padding-right: 0px;
+margin: 0.94rem 10.42rem 0.94rem 0.94rem;
+justify-content: space-between;
+align-items: center;
+width: 9.2525rem;
+align-self: stretch;
+}
+
+.zlp-price, .head-price{
+    display: flex;
+padding: 1.33938rem 3.57188rem 1.23875rem 0.72625rem;
+flex-direction: column;
+justify-content: center;
+align-items: flex-start;
+}
+
+.zlp-pool, .head-pool{
+    display: flex;
+padding: 1.30188rem 13.35688rem 1.27625rem 0.72688rem;
+flex-direction: column;
+align-items: flex-start;
+}
+
+.zlp-weight, .head-weight{
+    display: flex;
+padding: 1.30188rem 7.35688rem 1.27625rem 0.72688rem;
+flex-direction: column;
+align-items: flex-start;
+}
+
+.zlp-utilization, .head-utilization{
+    display: flex;
+padding: 1.33938rem 0.91663rem 1.23875rem 9.80275rem;
+flex-direction: column;
+justify-content: center;
+align-items: flex-start;
+}
+
+.zlp-price, .zlp-pool, .zlp-weight, .zlp-utilization{
+    color: rgba(255, 255, 255, 0.87);
+
+/* zomi_finance__dashboard/Inter/Regular 15 */
+font-family: Inter;
+font-size: 0.9375rem;
+font-style: normal;
+font-weight: 400;
+line-height: 1.35rem; /* 144% */
+letter-spacing: 0.01563rem;
+}
+
+.zlp-token-icon{
+    width: 2.5rem;
+height: 2.5rem;
+flex-shrink: 0;
+padding-right: 0.6rem;
+}
+
+.zlp-tokens-title{
+    width: 4.5025rem;
+}
+
+.token-table-head-arrow{
+    width: 1.75rem;
+}
+
+
+
+.earn-container{width: 100%;
+    flex-shrink: 0;
+    }
+    .earn-head{
+    display: inline-flex;
+    padding-right: 0px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 0.5rem;
+    
+    }
+    .earn-title{
+    display: flex;
+    width: 4.5875rem;
+    height: 2.5625rem;
+    flex-direction: column;
+    justify-content: center;
+    flex-shrink: 0;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 2.01706rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 3.06rem; /* 151.704% */
+    letter-spacing: 0.03125rem;
+    }
+    .earn-text{
+    display: flex;
+    width: 18.24313rem;
+    height: 1.34375rem;
+    flex-direction: column;
+    justify-content: center;
+    color: #B7B7BD;
+    font-family: Inter;
+    font-size: 0.90088rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.34375rem; /* 149.16% */
+    letter-spacing: 0.03125rem;
+    margin-bottom: 1.45rem;
+    }
+    .earn-mid{
+      width: 75rem;
+    height: 62.66813rem;
+    flex-shrink: 0;
+    }
+    .earn-mid-head{
+    display: flex;
+    width: 100%;
+    height: 1.3125rem;
+    flex-direction: column;
+    justify-content: center;
+    flex-shrink: 0;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 0.96875rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.3125rem; /* 135.484% */
+    border-bottom: 1px solid #4D4D4E;
+    padding-bottom: 1rem;
+    box-sizing: border-box;
+    }
+    
+    .earn-up{
+      display: flex;
+      gap: 1rem;
+      
+    }
+    .earn-down{
+      display: flex;
+      gap: 1rem;
+      
+    }
+    .earn-left-up{
+    border-radius: 0.25rem;
+    border: 1px solid #4D4D4E;
+    background: #151515;
+    width: 37.03125rem;
+    height: 29.715rem;
+    padding: 1rem;
+    flex-shrink: 0;
+    box-sizing: border-box;
+    
+    }
+    .earn-right-up{
+    box-sizing: border-box;
+    width: 37.03125rem;
+    height: 29.715rem;
+    flex-shrink: 0;
+    border-radius: 0.25rem;
+    border: 1px solid #4D4D4E;
+    padding: 1rem;
+    background: #151515;
+    margin-bottom: 1rem;
+    }
+    .earn-left-down{
+      box-sizing: border-box;
+    width: 37.03125rem;
+    height: 26.01563rem;
+    flex-shrink: 0;
+    border-radius: 0.25rem;
+    padding: 1rem;
+    border: 1px solid #4D4D4E;
+    background: #151515;
+    }
+    .earn-right-down{
+      box-sizing: border-box;
+      width: 37.03125rem;
+    height: 26.01563rem;
+    flex-shrink: 0;
+    padding: 1rem;
+    border-radius: 0.25rem;
+    border: 1px solid #4D4D4E;
+    background: #151515;
+    }
+    
+    .earn-above-info{
+      border-bottom: 1px solid #4D4D4E;
+      padding-bottom: 1rem;
+      padding-top: 0.3rem;
+      
+    }
+    .btn{
+    display: flex;
+    width: 8.1775rem;
+    height: 2.25rem;
+    padding: 0.5625rem 0.9875rem 0.625rem 1rem;
+    justify-content: center;
+    margin-top:1.16rem ;
+    margin-bottom: 1.22rem;
+    margin-left: 1rem;
+    align-items: center;
+    justify-content: center;
+    background: #3EB489;
+    border-radius: 0.25rem;
+    color: white;
+    background: #3EB489;
+    border:#3EB489 ;
+    }
+    .left-row{
+      display: flex;
+      color: white;
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      width: 100%;
+      justify-content: space-between;
+    }
+    .value1{
+      display: flex;
+    width: 10.405rem;
+    height: 1.125rem;
+    flex-direction: column;
+    justify-content: center;
+    flex-shrink: 0;
+    color: rgba(255, 255, 255, 0.70);
+    font-family: Inter;
+    font-size: 0.9375rem;
+    font-style: normal;
+    font-weight: 400;
+    padding: 0.432rem;
+    line-height: 1.35rem; /* 144% */
+    letter-spacing: 0.03125rem;
+    align-items: flex-start;
+    }
+    .value2{
+    display: flex;
+    width: 9.58063rem;
+    height: 1.125rem;
+    margin: 0.432rem;
+    flex-direction: column;
+    justify-content: center;
+    flex-shrink: 0;
+    color: #FFF;
+    text-align: right;
+    font-family: Inter;
+    font-size: 0.88625rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.35rem; /* 152.331% */
+    letter-spacing: 0.03125rem;
+    align-items: flex-end;
+    right: 0px;
+    }
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    .earn-tail{
+    width: 75rem;
+    height: 26.40125rem;
+    flex-shrink: 0;
+    
+    }
+    .tail-title{
+      display: flex;
+    width: 4.51563rem;
+    height: 2.5625rem;
+    flex-direction: column;
+    justify-content: center;
+    flex-shrink: 0;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 1.97556rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 3.06rem; /* 154.891% */
+    letter-spacing: 0.03125rem;
+    }
+    .content{
+     display: flex;
+     width: 369px;
+    
+    height: 1.125rem;
+    flex-direction: column;
+    justify-content: center;
+    flex-shrink: 0;
+    color: #B7B7BD;
+    font-family: Inter;
+    font-size: 0.9155rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.34375rem; /* 146.773% */
+    letter-spacing: 0.03125rem;
+    padding: 0.3rem;
+    }
+    .tail-container{
+      display: flex;
+      gap: 1rem;
+    }
+    .earn-tail-left{
+    width: 37.03125rem;
+    height: 16.71688rem;
+    flex-shrink: 0;
+    border-radius: 0.25rem;
+    border: 1px solid #4D4D4E;
+    background: #151515;
+    box-sizing: border-box;
+    }
+    .earn-tail-right{
+      
+      width: 37.03125rem;
+      height: 16.71688rem;
+      flex-shrink: 0;
+      border-radius: 0.25rem;
+    border: 1px solid #4D4D4E;
+    background: #151515;
+    box-sizing: border-box;
+    }
